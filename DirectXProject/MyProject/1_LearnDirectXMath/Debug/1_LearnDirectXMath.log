@@ -1,0 +1,3 @@
+﻿  1_LearnDirectXMath.cpp
+D:\Project\Shader\StudyShader\DirectXProject\MyProject\1_LearnDirectXMath\1_LearnDirectXMath.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  1_LearnDirectXMath.vcxproj -> D:\Project\Shader\StudyShader\DirectXProject\MyProject\1_LearnDirectXMath\Debug\1_LearnDirectXMath.exe
