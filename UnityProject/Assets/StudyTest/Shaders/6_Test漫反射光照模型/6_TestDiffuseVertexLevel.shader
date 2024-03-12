@@ -1,5 +1,4 @@
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
-
 // Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
 Shader "StudyTest/Test6/6_TestDiffuseVertexLevel"
