@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 6_TestSpecularVertexLevel
-  m_Shader: {fileID: 4800000, guid: 00a878278edf47f4cb07d2f1c96e60c3, type: 3}
+  m_Name: 6_TestBlinnPhong
+  m_Shader: {fileID: 4800000, guid: af44fd8a7f4255243a13f0adc7bd9eeb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
