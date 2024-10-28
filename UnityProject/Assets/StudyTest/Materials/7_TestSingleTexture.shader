@@ -7,8 +7,8 @@ Shader "StudyTest/Test7/7_TestSingleTexture"
     {
         _Color ("Color Tint", Color) = (1, 1, 1, 1)//色调
         _MainTex ("Main Tex", 2D) = "white" {}//定义一张纹理
-        _Specular ("Specular", Color) = (1, 1, 1, 1)
-        _Gloss ("Gloss", Range(8.0, 256)) = 20
+        _Specular ("Specular", Color) = (1, 1, 1, 1)//镜面反射
+        _Gloss ("Gloss", Range(8.0, 256)) = 20//光泽
     }
     SubShader
     {
