@@ -15,7 +15,7 @@ D:/Project/Shader/StudyShader/UnityProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-20863
+52448
 Successfully changed project path to: D:/Project/Shader/StudyShader/UnityProject
 D:/Project/Shader/StudyShader/UnityProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Project/Shader/StudyShader/UnityProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18208] Host "[IP] 10.100.139.199 [Port] 0 [Flags] 2 [Guid] 2945414267 [EditorId] 2945414267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJQAEED) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34340] Host "[IP] 10.100.139.199 [Port] 0 [Flags] 2 [Guid] 1998652184 [EditorId] 1998652184 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJQAEED) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18208] Host "[IP] 10.100.139.199 [Port] 0 [Flags] 2 [Guid] 2945414267 [EditorId] 2945414267 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJQAEED) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34340] Host "[IP] 10.100.139.199 [Port] 0 [Flags] 2 [Guid] 1998652184 [EditorId] 1998652184 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KJQAEED) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 4.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity 2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity 2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity 2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -77,8 +77,8 @@ Register platform support module: D:/Program Files/Unity 2022.3.7f1/Editor/Data/
 Register platform support module: D:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Program Files/Unity 2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003754 seconds.
-- Loaded All Assemblies, in  0.273 seconds
+Registered in 0.004560 seconds.
+- Loaded All Assemblies, in  0.255 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -87,36 +87,36 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.271 seconds
-Domain Reload Profiling: 544ms
-	BeginReloadAssembly (82ms)
+- Finished resetting the current domain, in  0.227 seconds
+Domain Reload Profiling: 481ms
+	BeginReloadAssembly (75ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (118ms)
-		LoadAssemblies (82ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (75ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (94ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (272ms)
+	FinalizeReload (227ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (222ms)
+		SetupLoadedEditorAssemblies (185ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (81ms)
+			InitializePlatformSupportModulesInManaged (70ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (92ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			ProcessInitializeOnLoadAttributes (73ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,55 +125,55 @@ Domain Reload Profiling: 544ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.515 seconds
-Refreshing native plugins compatible for Editor in 3.39 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.455 seconds
+Refreshing native plugins compatible for Editor in 2.91 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.597 seconds
-Domain Reload Profiling: 1112ms
-	BeginReloadAssembly (124ms)
+- Finished resetting the current domain, in  1.832 seconds
+Domain Reload Profiling: 2288ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (311ms)
-		LoadAssemblies (274ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (224ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (90ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (77ms)
 			ScanForSourceGeneratedMonoScriptInfo (15ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (598ms)
+	FinalizeReload (1833ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (453ms)
+		SetupLoadedEditorAssemblies (1697ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (52ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (193ms)
-			ProcessInitializeOnLoadMethodAttributes (138ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (186ms)
+			ProcessInitializeOnLoadMethodAttributes (1413ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.90 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.64 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2729 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 74 unused Assets / (1.6 MB). Loaded Objects now: 3173.
-Memory consumption went from 153.4 MB to 151.8 MB.
-Total: 8.698900 ms (FindLiveObjects: 0.356500 ms CreateObjectMapping: 0.235000 ms MarkObjects: 7.665800 ms  DeleteObjects: 0.440100 ms)
+Unloading 2732 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (1.6 MB). Loaded Objects now: 3176.
+Memory consumption went from 154.6 MB to 153.0 MB.
+Total: 6.276300 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.137800 ms MarkObjects: 5.436800 ms  DeleteObjects: 0.444100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -191,201 +191,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36559.643714 seconds.
-  path: Assets/StudyTest/Materials/7_TestNormalMapInTangentSpace.shader
-  artifactKey: Guid(95c6e6aa3259c514fadda91685c673dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestNormalMapInTangentSpace.shader using Guid(95c6e6aa3259c514fadda91685c673dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c247d08f882287003028853edc8c0db9') in 0.013924 seconds
+  Time since last request: 402975.834527 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Materials/Chapter10
+  artifactKey: Guid(3662ab24b14a54775852eb0d88c2e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Materials/Chapter10 using Guid(3662ab24b14a54775852eb0d88c2e883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707dedf387c0e49bde23780f1cfb6266') in 0.002714 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3715.072500 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Textures/Chapter7
-  artifactKey: Guid(0f819b87811db44f6bcb919d33ac5e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Textures/Chapter7 using Guid(0f819b87811db44f6bcb919d33ac5e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda13fe1249a3a64f7ff5b803de66853') in 0.004850 seconds
+  Time since last request: 3560.393969 seconds.
+  path: Assets/StudyTest/Materials/8_TestAlphaTest.shader
+  artifactKey: Guid(5f51f1ea1697fdd42a75f89949a9de13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudyTest/Materials/8_TestAlphaTest.shader using Guid(5f51f1ea1697fdd42a75f89949a9de13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cd1aca3299f3fa810c9417843b701b') in 0.008984 seconds
 Number of updated asset objects reloaded before import = 1
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 48041.926953 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture2.psd
-  artifactKey: Guid(6e7b096b1db594c26985056637771fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture2.psd using Guid(6e7b096b1db594c26985056637771fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd8418887da46773bd38e8fa8357f7c') in 0.231870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 223.513413 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Materials/Chapter6
-  artifactKey: Guid(55212614c653741779102300339c49f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Materials/Chapter6 using Guid(55212614c653741779102300339c49f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ec0fc450cfac98af4037d8f42fb21b') in 0.001164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.920168 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Materials/Chapter7
-  artifactKey: Guid(e8f3c57c917264b4dadaaf426ac7318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Materials/Chapter7 using Guid(e8f3c57c917264b4dadaaf426ac7318a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0330b827a982699e32e72673f0d93097') in 0.000763 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 74.393591 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d86917d24039c9ab6a1f9bbee78130') in 0.003845 seconds
+  Time since last request: 4650.261557 seconds.
+  path: Assets/StudyTest/Materials/8_TestAlphaBlend.shader
+  artifactKey: Guid(d90693194cb61de408f29714301bbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudyTest/Materials/8_TestAlphaBlend.shader using Guid(d90693194cb61de408f29714301bbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7dd5a7d26b419cc06a5cb3182e680f') in 0.016502 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 19.112528 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4e24dd2b46516aaffda9391b98a68b') in 0.001821 seconds
+  Time since last request: 61.343582 seconds.
+  path: Assets/StudyTest/Materials/8_TestAlphaBlend.shader
+  artifactKey: Guid(d90693194cb61de408f29714301bbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudyTest/Materials/8_TestAlphaBlend.shader using Guid(d90693194cb61de408f29714301bbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1984511316cad07d6bc0f29e4be9bbd1') in 0.002602 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.336789 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae7dba38a45a90aad1a73aba012a63b') in 0.001806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 8.826080 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b776dd9d26cd0553cba3a48336330c84') in 0.004848 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 49.030514 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1a721488a7bde66322541c6a99a2e7') in 0.001893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 30.061569 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714d3adf2d6efb3fabc22ec9d93964d9') in 0.001702 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 24.149541 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2ed7b66f4066afeee6fa72fc19a8eb') in 0.001622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 40.504458 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c60f16b7a57fdb4956f6626fcf3725') in 0.002734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 16.139725 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39bc94d43a829a308187350f9277bde') in 0.002006 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 47.580259 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24ae6371a947fbeb663becae7621a63') in 0.001866 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 41.108156 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da963822ece0f2f51007e4979b245282') in 0.001981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 51.672033 seconds.
-  path: Assets/StudyTest/Materials/7_TestRampTexture.shader
-  artifactKey: Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Materials/7_TestRampTexture.shader using Guid(2c764fc06ff7ef94fb6715c693772d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729d66217f7d532e479c1b96f247460b') in 0.001692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 453.870103 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Prefabs/Common/Suzanne.prefab
-  artifactKey: Guid(213146ebd90504804814b63129a0cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Prefabs/Common/Suzanne.prefab using Guid(213146ebd90504804814b63129a0cf1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b828a45e276c97f520cf2d876bfb9c') in 0.142723 seconds
+  Time since last request: 2692.558720 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Models/bunny.obj
+  artifactKey: Guid(5267b7d4485754c79b3de8fd6a231dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Models/bunny.obj using Guid(5267b7d4485754c79b3de8fd6a231dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a705f996c5f6a34d1080ad3caa7a89') in 0.409460 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 141.604449 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture1.psd
-  artifactKey: Guid(7a260a1cdf6d24bc59ee55122079d2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture1.psd using Guid(7a260a1cdf6d24bc59ee55122079d2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6414d3f3b593d13a85c4bd0139e9a00') in 0.009278 seconds
+  Time since last request: 3.409650 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Models/dragon.obj
+  artifactKey: Guid(6e1a7202abe674006ba786e9ea706e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Models/dragon.obj using Guid(6e1a7202abe674006ba786e9ea706e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5acab7f20c96ed519851d3d1022599') in 0.045243 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 17
 ========================================================================
 Received Import Request.
-  Time since last request: 2.395875 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture0.psd
-  artifactKey: Guid(f628a9d765d21417995f27cbf8e44c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture0.psd using Guid(f628a9d765d21417995f27cbf8e44c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e993320dc37bc027db979b99ee2af51') in 0.007124 seconds
+  Time since last request: 0.606563 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Models/Knot.FBX
+  artifactKey: Guid(26394be4910234f97ae9019b7ca73982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Models/Knot.FBX using Guid(26394be4910234f97ae9019b7ca73982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ae99c6a89ea9ee5246f6eac2226a67') in 0.010814 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 24.379898 seconds.
-  path: Assets/StudyTest/Scenes/StudyTest.unity
-  artifactKey: Guid(4d386d83b98d4cf4386d0946b438cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StudyTest/Scenes/StudyTest.unity using Guid(4d386d83b98d4cf4386d0946b438cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0e7b7a67dd26cc8e44f52bb04645c2') in 0.000765 seconds
+  Time since last request: 1.102081 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Models/prop_barrel_01.fbx
+  artifactKey: Guid(fa23ba21d03513f46b70227bb5a7dc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Models/prop_barrel_01.fbx using Guid(fa23ba21d03513f46b70227bb5a7dc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e1f6768e029e908c21211f18cdb8c8') in 0.539084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.106770 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Models/prop_shield_01.fbx
+  artifactKey: Guid(1f6399aa9d830fb4180fd4fa78aa2138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Models/prop_shield_01.fbx using Guid(1f6399aa9d830fb4180fd4fa78aa2138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1d8c8f7aa1a82d8c8e194c44d72496') in 0.474691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.230879 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Models/Teapot.FBX
+  artifactKey: Guid(354198794248843da8555877937ee568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Models/Teapot.FBX using Guid(354198794248843da8555877937ee568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33017dcc361d5c2485787260cf217b4a') in 0.009601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.685677 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Models/water_fall.fbx
+  artifactKey: Guid(bc6df46f88006499188e1989f0b431dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Models/water_fall.fbx using Guid(bc6df46f88006499188e1989f0b431dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aa8fafa887261da3ac014a46b9b776') in 0.013092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 64.770864 seconds.
+  path: Assets/StudyTest/Materials/8_TestAlphaBlend.shader
+  artifactKey: Guid(d90693194cb61de408f29714301bbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudyTest/Materials/8_TestAlphaBlend.shader using Guid(d90693194cb61de408f29714301bbde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdb1c9a28bda6b682ae3afd403e5da2') in 0.001615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2351.235257 seconds.
+  path: Assets/Unity_Shaders_Book_Code/Scenes/Chapter8
+  artifactKey: Guid(e2b1f6aaab07c4ab8b7f2236d4dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unity_Shaders_Book_Code/Scenes/Chapter8 using Guid(e2b1f6aaab07c4ab8b7f2236d4dad47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd704ae21dab43f5b595e68af70c91b3') in 0.000685 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 61.101289 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture2.psd
-  artifactKey: Guid(6e7b096b1db594c26985056637771fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture2.psd using Guid(6e7b096b1db594c26985056637771fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fbd28344f4005099f1c3c06c4df593') in 0.009823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+  Time since last request: 62974.132839 seconds.
+  path: Assets/StudyTest/Materials/8_TestAlphaBlendBothSided.shader
+  artifactKey: Guid(c949f963880832049acbb98898acb88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudyTest/Materials/8_TestAlphaBlendBothSided.shader using Guid(c949f963880832049acbb98898acb88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a868808396b09f29f7eae7a89a482979') in 0.013310 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 47.391057 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture0.psd
-  artifactKey: Guid(f628a9d765d21417995f27cbf8e44c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture0.psd using Guid(f628a9d765d21417995f27cbf8e44c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66f4b3b1fa2494cec82a924facd48d4') in 0.007420 seconds
+  Time since last request: 43.009634 seconds.
+  path: Assets/StudyTest/Materials/8_TestAlphaBlendBothSided.shader
+  artifactKey: Guid(c949f963880832049acbb98898acb88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudyTest/Materials/8_TestAlphaBlendBothSided.shader using Guid(c949f963880832049acbb98898acb88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4239daf1b7277ce3a36441836049d925') in 0.001416 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 7.577009 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture0.psd
-  artifactKey: Guid(f628a9d765d21417995f27cbf8e44c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture0.psd using Guid(f628a9d765d21417995f27cbf8e44c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73b7ca7ad097b144e3e127f1cc6e6bf') in 0.007150 seconds
+  Time since last request: 17.820553 seconds.
+  path: Assets/StudyTest/Materials/8_TestAlphaBlendBothSided.shader
+  artifactKey: Guid(c949f963880832049acbb98898acb88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudyTest/Materials/8_TestAlphaBlendBothSided.shader using Guid(c949f963880832049acbb98898acb88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba03de4ed0c4622e41f4815a73b540ee') in 0.001316 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 10.554778 seconds.
-  path: Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture2.psd
-  artifactKey: Guid(6e7b096b1db594c26985056637771fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Unity_Shaders_Book_Code/Textures/Chapter7/Ramp_Texture2.psd using Guid(6e7b096b1db594c26985056637771fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76675336a76ece359990954c53caebcb') in 0.009087 seconds
+  Time since last request: 140.462900 seconds.
+  path: Assets/StudyTest/Scenes/StudyTest.unity
+  artifactKey: Guid(4d386d83b98d4cf4386d0946b438cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StudyTest/Scenes/StudyTest.unity using Guid(4d386d83b98d4cf4386d0946b438cc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54590f7b52888fbb1f95ff5fe92fef6') in 0.000838 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0

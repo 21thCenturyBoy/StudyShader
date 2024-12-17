@@ -21,7 +21,7 @@ Shader "Unity Shaders Book/Chapter 8/Blend Operations 1" {
 //			Blend OneMinusDstColor One
 //			
 //			// Multiply
-			Blend DstColor Zero
+//			Blend DstColor Zero
 //			
 //			// 2x Multiply
 //			Blend DstColor SrcColor
@@ -36,6 +36,7 @@ Shader "Unity Shaders Book/Chapter 8/Blend Operations 1" {
 //			
 //			// Screen
 //			Blend OneMinusDstColor One
+			
 			// Or
 //			Blend One OneMinusSrcColor
 //			
